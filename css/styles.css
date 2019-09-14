@@ -1,7 +1,15 @@
+/*=====  Configuración body  ======*/
+
 .main-container{
-	background: rgba(212, 208, 209,.2);
-	min-height: px;
+	background: rgba(212, 208, 209,.3);
+	max-width: 1100px;
 }
+
+a{
+	color: white !important;
+}
+
+/*=====  Configuración header  ======*/
 
 .header h1{
 	color: white;
@@ -11,56 +19,105 @@
 	font-weight: bold;
 }
 
-h3 small{
+.blog-name>small{
 	padding-right: 0.75rem;
 }
 
-.name-slogan{
+.logo-area{
 	background: rgba(255, 0, 0,0.8);
 }
 
-.menu{
-	margin-top: 1rem;
-}
+/*=====  reglas menú lateral  ======*/
 
-.nav{
-	margin-top: 0.1rem !important;
-}
-
-section{
+.aside-menu{
 	background: rgba(129, 99, 87,0.6);
-}
-
-a{
-	color: white !important;
-}
-
-.gallery a{
-	width: 30%;
-	margin: auto;
-}
-
-.gallery a>img{
-	width: 100%;
-}
-
-.gallery, .history{
 	padding-left: 0.5rem !important;
 	padding-right: 0.5rem !important;
 	color: white;
 }
 
-.no-bullet li{
-	margin-left: 1.5rem;
+.side-menu-tittle{
+		padding-left: 0.5rem; 
+		margin-bottom: 0.5rem !important; 
+		font-weight: bold;
 }
 
-p{
-	padding-left: 0.5rem; 
-	margin-bottom: 0.5rem !important; 
-	font-weight: bold;
-}
+	/*----------  Menú de Navaegación  ----------*/
 
-.posts{
+	.menu{
+		margin-top: 1rem;
+	}
+
+	.nav{
+		margin-top: 0.1rem !important;
+	}
+
+	/*---------- Sección de Favoritos  ----------*/
+
+	.gallery a{
+		width: 30%;
+		margin: auto;
+	}
+
+	.gallery a>img{
+		width: 100%;
+	}
+
+	/*---------- Sección de historial  ----------*/
+
+	.no-bullet li{
+		margin-left: 1.5rem;
+	}
+
+/*=====  Reglas publicaciones del blog  ======*/
+
+.comment-area, .content-area, .done-comments{
 	background: rgb(247, 245, 209);
-	min-height: 500px;"
+	padding: 0% 5%;
+}
+
+.post{
+	padding: 0% 2%;
+	margin-bottom: 2%;
+}
+
+.post img{
+	width: 100%;
+}
+
+.post-content{
+	margin-top: 0.8rem;
+	color: rgb(129, 99, 87);
+	text-align: justify;
+}
+
+.post-tittle{
+	color: rgb(129, 99, 87);
+	padding-top: 3%;
+}
+
+.subheader{
+	color: rgba(129, 99, 87,0.6);
+}
+
+.done-comments>.callout>img{
+	width: 70px;
+}
+
+.callout>.post-content{
+	margin-left: 1rem;
+}
+
+.hollow{
+	background: rgb(247, 245, 209);
+	border-radius: 0.5rem;
+	border-color: rgba(255, 0, 0,0.3);
+}
+
+footer{
+	width: 1100px;
+	background: rgba(212, 208, 209,.6);
+	color: white;
+	margin: 0 auto;
+	padding: 0.5rem 1rem;
 }
